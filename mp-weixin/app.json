@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/gonggao/list",
+    "pages/gonggao/list2",
+    "pages/gonggao/add-or-update",
+    "pages/gonggao/detail",
+    "pages/jianzhi/list",
+    "pages/jianzhi/list2",
+    "pages/jianzhi/add-or-update",
+    "pages/jianzhi/detail",
+    "pages/jianzhiCollection/list",
+    "pages/jianzhiCollection/list2",
+    "pages/jianzhiCollection/add-or-update",
+    "pages/jianzhiCollection/detail",
+    "pages/jianzhiLiuyan/list",
+    "pages/jianzhiLiuyan/list2",
+    "pages/jianzhiLiuyan/add-or-update",
+    "pages/jianzhiLiuyan/detail",
+    "pages/jianzhiOrder/list",
+    "pages/jianzhiOrder/confirm",
+    "pages/shangjia/list",
+    "pages/shangjia/list2",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生校园兼职",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#29ce87",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gonggao/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/jianzhi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "兼职"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
